@@ -1,14 +1,20 @@
 apiVersion: v1
 entries:
-  helloworld:
+  my-nginx-app:
   - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2024-11-20T18:22:50.153694+07:00"
-    description: A Helm chart for Kubernetes
-    digest: 00517a21c5a72f396054d7d71d1d62fe43c634f199d96c61e7f9b97e9f3d6203
-    name: helloworld
-    type: application
+    appVersion: "1.0"
+    created: "2024-11-20T19:14:06.098095+07:00"
+    dependencies:
+    - name: nginx
+      repository: https://charts.bitnami.com/bitnami
+      version: 18.2.5
+    - name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 12.1.0
+    description: A simple Helm chart that includes NGINX as a dependency
+    digest: 002a6e7871fbd289d96b271093ddd96082a94658f53886fe9349f5220671a98c
+    name: my-nginx-app
     urls:
-    - https://longndh1.github.io/helm/helloworld-0.1.0.tgz
+    - https://longndh1.github.io/helm/helm/my-nginx-app-0.1.0.tgz
     version: 0.1.0
-generated: "2024-11-20T18:22:50.153091+07:00"
+generated: "2024-11-20T19:14:06.093261+07:00"
