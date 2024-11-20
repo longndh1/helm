@@ -15,6 +15,6 @@ entries:
     digest: 002a6e7871fbd289d96b271093ddd96082a94658f53886fe9349f5220671a98c
     name: my-nginx-app
     urls:
-    - https://longndh1.github.io/helm/helm/my-nginx-app-0.1.0.tgz
+    - https://longndh1.github.io/helm/my-nginx-app-0.1.0.tgz
     version: 0.1.0
 generated: "2024-11-20T19:14:06.093261+07:00"
